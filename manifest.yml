@@ -1,0 +1,8 @@
+applications:
+- name: node-app
+  disk_quota: 256M
+  instances: 1
+  memory: 256M
+  routes:
+  - route: node-app.cfapps.io
+  stack: cflinuxfs3
